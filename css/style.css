@@ -748,8 +748,16 @@ input[type="color"]:focus,
   box-shadow: none;
 }
 
+.form-control.mailchimp {
+
+}
+
 #contactForm .form-group {
   margin-bottom: 0px !important;
+}
+
+.form-control.mailchimp {
+  width:300px;
 }
 
 /**************************
