@@ -13,13 +13,13 @@ function hideNewsletterForm(e)
     document.getElementById("newsletter_button").style.display="inline";
     document.getElementById("mailchimp").style.display="none";
 
-    let $form = $("#mc-embedded-subscribe-form");
-    let displayError = function() {
+    var $form = $("#mc-embedded-subscribe-form");
+    var displayError = function() {
         // Fail message
         $('#mc-success').html("<div class='alert alert-danger'>");
         $('#mc-success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-        $('#mc-success > .alert-danger').append("<strong>Sorry, something went wrong. Please contact us at <a href="mailto:info@jdis.ca">info@jdis.ca</a>.</strong>");
+        $('#mc-success > .alert-danger').append("<strong>Sorry, something went wrong. Please contact us at <a href='mailto:info@jdis.ca'>info@jdis.ca</a>.</strong>");
         $('#mc-success > .alert-danger').append('</div>');
         //clear all fields
         $form.trigger("reset");
