@@ -58,7 +58,11 @@ p {
   line-height: 25px;
   font-weight: 400;
   font-size: 13px;
-  color: #a7afb8;
+  color: #666;
+}
+
+p.darkbg {
+  color:#a7afb8;
 }
 
 a {
@@ -153,6 +157,7 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #119E5D;
+  background-size: contain;
   z-index: 2;
 }
 
@@ -315,7 +320,7 @@ bootstrap navbar overrides
 
 .section-heading .section-title {
   color: #000;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .section-heading .small span {
@@ -1580,7 +1585,7 @@ label span {
   font-weight: 400;
   font-size: 12px;
   border-bottom: 1px dotted #333;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .dropdown-menu > li > a:hover {
