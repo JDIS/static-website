@@ -520,6 +520,11 @@ social icons css here
   background-color: #007bb6;
 }
 
+/** CUSTOM **/
+.social-colored li a i.icon-flickr{
+  background-color: #FF0084;
+}
+
 /****************************
 About section
 ****************************/
