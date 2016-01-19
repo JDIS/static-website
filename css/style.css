@@ -1039,6 +1039,8 @@ our work section
 .person img {
   display: block;
   margin: 0 auto;
+  border-radius: 1000px;
+  border: 1px solid #DEDEDE;
 }
 
 .person-desc h4 {
@@ -1046,6 +1048,7 @@ our work section
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 3px;
+  text-align: center;
 }
 
 .person-desc em {
