@@ -525,6 +525,14 @@ social icons css here
   background-color: #FF0084;
 }
 
+.social-colored li a i.icon-github{
+  background-color: #303030;
+}
+
+.social-colored li a i.icon-youtube{
+  background-color: #bb0000;
+}
+
 /****************************
 About section
 ****************************/
