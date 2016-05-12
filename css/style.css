@@ -1061,9 +1061,10 @@ our work section
 
 .person-desc h5 {
   text-transform: uppercase;
-  font-size: 12px;
-  margin-top: 20px;
+  font-size: 14px;
+  margin-top: 10px;
   margin-bottom: 3px;
+  color: #119E5D;
   text-align: center;
 }
 
