@@ -1059,6 +1059,14 @@ our work section
   text-align: center;
 }
 
+.person-desc h5 {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
 .person-desc em {
   font-weight: 600;
   color: #119E5D;
