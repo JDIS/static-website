@@ -62,7 +62,7 @@ p {
 }
 
 p.darkbg {
-  color: #000;
+  color: #fff;
   opacity: 0.7;
 }
 
@@ -1032,6 +1032,7 @@ our work section
   text-align: center;
   font-weight: 600;
   font-size: 13px;
+  color: black;
   font-family: "Open Sans", sans-serif;
 }
 
