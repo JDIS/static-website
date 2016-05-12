@@ -1049,6 +1049,12 @@ our work section
   margin: 0 auto;
   border-radius: 1000px;
   border: 1px solid #DEDEDE;
+  width: 300px;
+}
+
+.person img:hover {
+  width: 310px;
+  transition-delay: 0.2s;
 }
 
 .person-desc h4 {
