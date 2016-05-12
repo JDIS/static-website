@@ -1020,7 +1020,7 @@ our work section
 
 .work-sesc {
   padding: 15px 10px;
-  /*border: 1px solid #E9E9E9;*/
+  border: 1px solid #E9E9E9;
   border-top: none;
   background: rgba(255, 255, 255, 0.95);
 }
