@@ -1,10 +1,10 @@
-/* 
+/*
     project   : Codeon v3.0
     Created on : May 31, 2014, 10:42:39 AM
     Author     : design_mylife
     Description: clean modern one page Template.
     updated on nov 9, 2014
-       
+
 */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
 /*--------------base-------
@@ -489,11 +489,11 @@ social icons css here
 
 .social-colored li a i {
   color: #fff;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   text-align: center;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 35px;
+  line-height: 50px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -532,6 +532,10 @@ social icons css here
 
 .social-colored li a i.icon-youtube{
   background-color: #bb0000;
+}
+
+.social-colored li a i.icon-slack{
+  background-color: #7B5EAF;
 }
 
 /****************************
