@@ -110,7 +110,6 @@ a:focus {
   background-size: auto;
   background-repeat: repeat;
   background-attachment: fixed;
-  /*background-image: url(../img/bg-1.jpg);*/
   background-color: #119E5D;
   display: table;
   width: 100%;
@@ -1226,11 +1225,9 @@ our work section
 
 /*pricing-section-2 for contact us*/
 .pricing-section-2 {
-  background-image: url("../img/bg-1.jpg");
+  background-color: #272727;
   padding: 90px 0;
   width: 100%;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .pricing-section-2 h1 {
@@ -1353,22 +1350,15 @@ iframe {
 }
 
 .services-section-2 {
-  background-image: url(../img/bg-1.jpg);
+  background-color: #272727;
   padding: 90px 0;
-  background-color: #119E5D;
-  background-position: center top;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 /**fun facts***/
 #numbers {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url(../img/bg-1.jpg);
-  background-position: center top;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #272727;
 }
 
 .fact-inner {
@@ -1391,11 +1381,8 @@ iframe {
 
 /**testi***/
 .testi {
-  background-image: url(../img/bg-1.jpg);
+  background-color:#272727;
   padding: 90px 0;
-  background-position: center top;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .testi img {
