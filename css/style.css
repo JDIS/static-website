@@ -1723,3 +1723,7 @@ label span {
   background-repeat: repeat;
   background-color: rgba(0, 0, 0, 0.6);
 }
+
+.mc-success {
+    margin-top: 10px;
+}
