@@ -80,7 +80,7 @@
                                     <i class="fa fa-lightbulb-o"></i>
                                 </div>
                                 <div class="about-box-text">
-                                    <h4>JDIS Live! </h4>
+                                    <h4>Team</h4>
                                     <p align="justify">
                                         JDIS (French for "Jeux et Défis Informatiques de Sherbrooke", literally "Sherbrooke Computer Science Games and Challenges") is a student group at Université de Sherbrooke which is strongly interested in computer science. It is also an AGEG technical group. Whether you are an engineering student or a computer science student, or simply a computer science geek, you are more than welcome among us.
                                     </p>
@@ -921,7 +921,6 @@
         <script src="/js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
         <script src="/js/jquery.stellar.min.js" type="text/javascript"></script>
         <script src="/js/owl.carousel.min.js" type="text/javascript"></script>
-        <script src="/js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
         <script src="/js/waypoints.min.js"></script>
         <script src="/js/easypiechart.js"></script>
         <script src="/js/jquery.isotope.min.js" type="text/javascript"></script>
@@ -933,7 +932,6 @@
         <script src="/js/jqBootstrapValidation.js" type="text/javascript"></script>
         <script src="/js/custom.js" type="text/javascript"></script>
         <!--revolution slider plugins-->
-        <script src="/js/revolution-custom.js" type="text/javascript"></script>
         <script src="/js/isotope-custom.js" type="text/javascript"></script>
 
         <!--google maps-->
@@ -944,10 +942,10 @@
             var marker;
 
             function initialize() {
-                myLatlng = new google.maps.LatLng(45.37833, -71.92622);
+                myLatlng = new google.maps.LatLng(45.379883, -71.926655);
 
                 var mapOptions = {
-                    zoom: 13,
+                    zoom: 16,
                     center: myLatlng,
                     mapTypeId: google.maps.MapTypeId.ROADMAP,
                     scrollwheel: false,
@@ -955,7 +953,7 @@
                 };
                 map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-                var contentString = '<p>123 My Street, Codeon City, CA 4567</p>';
+                var contentString = '<p><strong>JDIS</strong><br>D4-2009, Faculté des sciences<br>Université de Sherbrooke</p>';
 
                 var infowindow = new google.maps.InfoWindow({
                     content: contentString

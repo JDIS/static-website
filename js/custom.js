@@ -1,4 +1,4 @@
-/* 
+/*
  * Theme: Codeon - one page responsive template built for humans.
  * Version: v1.1
  * Author:  Design_mylife
@@ -60,10 +60,10 @@ else {
 }
 close_toggle();
 
-$(window).resize(close_toggle); 
+$(window).resize(close_toggle);
 
 
-    
+
 /* ==============================================
 Smooth Scroll To Anchor
 =============================================== */
@@ -88,14 +88,14 @@ $(function() {
      /*========tooltip and popovers====*/
      /*==========================*/
     $("[data-toggle=popover]").popover();
-    
+
     $("[data-toggle=tooltip]").tooltip();
 
 
 /*=========================*/
      /*========Animation on scroll with wow.js====*/
      /*==========================*/
-     
+
    wow = new WOW(
       {
         animateClass: 'animated',
@@ -104,13 +104,13 @@ $(function() {
       }
     );
     wow.init();
-    
-    
+
+
     /*=========================*/
      /*========on hover dropdown navigation====*/
      /*==========================*/
-     
-     
+
+
      $(document).ready(function() {
 
     $('.js-activated').dropdownHover({
@@ -144,7 +144,7 @@ jQuery(document).ready(function($) {
 });
 //owl carousel for testimonials
 $(document).ready(function() {
- 
+
   $("#testi-carousel").owlCarousel({
       // Most important owl features
     items : 1,
@@ -157,7 +157,7 @@ $(document).ready(function() {
     singleItem : false,
     startDragging : true
   });
- 
+
 });
 
 
@@ -201,31 +201,16 @@ $(document).ready(function () {
     });
 
 });
-/* ==============================================
- mb.YTPlayer for video bg
- =============================================== */
+/* ============================================== */
 
-jQuery(function () {
-    jQuery(".player").mb_YTPlayer();
-});
-
- $(window).scroll(function(){      
+ $(window).scroll(function(){
         /* -------------------
         Header Animation
         ---------------------*/
-        if ($(this).scrollTop() > 5){  
+        if ($(this).scrollTop() > 5){
             $('.navbar-transparent').addClass("navbar-bg");
         }
         else{
             $('.navbar-transparent').removeClass("navbar-bg");
         }
     });
-
-
-
-
-
-
-
-
-
