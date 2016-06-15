@@ -1039,6 +1039,14 @@ our work section
   font-family: "Open Sans", sans-serif;
 }
 
+.calendar-section-1 {
+  background-color: #272727;
+}
+
+.calendar-section-1 h1 {
+  color: #fff;
+  margin-top: 0;
+}
 /*****************team*******************/
 .work-section-2 {
   background-color: #fff;
