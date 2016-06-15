@@ -142,47 +142,8 @@ jQuery(document).ready(function($) {
         time: 800
     });
 });
-//owl carousel for testimonials
-$(document).ready(function() {
-
-  $("#testi-carousel").owlCarousel({
-      // Most important owl features
-    items : 1,
-    itemsCustom : false,
-    itemsDesktop : [1199,1],
-    itemsDesktopSmall : [980,1],
-    itemsTablet: [768,1],
-    itemsTabletSmall: false,
-    itemsMobile : [479,1],
-    singleItem : false,
-    startDragging : true
-  });
-
-});
-
-
-/***=================easy pie charts================================= */
-$('.chart').each(function () {
-    var $this = $(this);
-    var color = $(this).data('scale-color');
-
-    setTimeout(function () {
-        $this.filter(':visible').waypoint(function (direction) {
-            $(this).easyPieChart({
-                barColor: color,
-                trackColor: '#fff',
-                onStep: function (from, to, percent) {
-                    jQuery(this.el).find('.percent').text(Math.round(percent));
-                }
-            });
-        }, {offset: '100%'});
-    }, 500);
-
-});
-
 
 //back to top
-
 $(document).ready(function () {
 
     //Check to see if the window is top if not then display button

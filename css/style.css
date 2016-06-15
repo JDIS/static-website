@@ -102,8 +102,20 @@ a:focus {
   margin-bottom: 20px;
 }
 
-/*****************home ********
-******************************/
+/*****************Sections*******************/
+.section--light {
+  background-color: #fff;
+}
+
+.section--dark {
+  background-color: #272727;
+}
+
+.section--dark h1 {
+  color: #fff;
+}
+
+/*****************Home*******************/
 #home.full-screen-dem {
   background-color: #444;
   background-position: center 0%;
@@ -639,7 +651,7 @@ h3.heading-progress {
   services section css here
 
 ***********************************/
-.services-section-1 {
+.section__projects {
   margin-bottom: 30px;
 }
 
@@ -680,24 +692,24 @@ h3.heading-progress {
   margin-bottom: 50px;
 }
 
-.services-section-2 {
+/***newsletter***/
+.section__newsletter {
   padding: 90px 0;
 }
 
-.services-section-2 h1 {
+.section__newsletter h1 {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #FFF;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 27px;
 }
 
-.services-section-2 .newsletter-form input {
+.section__newsletter .newsletter-form input {
   border: none;
 }
 
-.services-section-2 .newsletter-form input:focus {
+.section__newsletter .newsletter-form input:focus {
   border: none;
 }
 
@@ -1039,17 +1051,13 @@ our work section
   font-family: "Open Sans", sans-serif;
 }
 
-.calendar-section-1 {
-  background-color: #272727;
-}
-
-.calendar-section-1 h1 {
-  color: #fff;
+/*****************calendar*******************/
+.section__calendar h1 {
   margin-top: 0;
 }
+
 /*****************team*******************/
-.work-section-2 {
-  background-color: #fff;
+.section__team {
   padding-top: 60px;
   padding-bottom: 50px;
 }
@@ -1116,18 +1124,18 @@ our work section
 
 /**********************contact section
 ***************************************/
-.contact-sec-1 {
+.section__contact {
   margin: 0;
 }
 
-.contact-sec-1 h4 {
+.section__contact h4 {
   margin-bottom: 30px;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 20px;
 }
 
-.contact-sec-2 {
+.section__contact-2 {
   padding: 40px 0;
   background-color: #333;
   border-top: 1px solid #222;
@@ -1170,8 +1178,7 @@ our work section
 }
 
 /*****************Pricing tables******************/
-.pricing-section-1 {
-  background-color: #fff;
+.section__sponsorship {
   margin-bottom: 40px;
 }
 
@@ -1229,22 +1236,37 @@ our work section
   border-top: 1px solid #eee;
 }
 
-/*pricing-section-2 for contact us*/
-.pricing-section-2 {
-  background-color: #272727;
+/**********Section idea*************/
+.section__idea {
   padding: 90px 0;
   width: 100%;
 }
 
-.pricing-section-2 h1 {
+.section_idea h1 {
   margin-top: 0px;
   margin-bottom: 30px;
   text-transform: uppercase;
   font-weight: 400;
-  color: #fff;
 }
 
-.pricing-section-2 p {
+.section_idea p {
+  margin: 0px;
+}
+
+/**********Section follow us*************/
+.section__follow-us {
+  padding: 90px 0;
+  width: 100%;
+}
+
+.section__follow-us h1 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.section__follow-us p {
   margin: 0px;
 }
 
@@ -1355,16 +1377,10 @@ iframe {
   position: relative;
 }
 
-.services-section-2 {
-  background-color: #272727;
-  padding: 90px 0;
-}
-
-/**fun facts***/
+/*****************Partner*******************/
 #numbers {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #272727;
 }
 
 .fact-inner {
@@ -1716,7 +1732,7 @@ label span {
     color: #000 !important;
   }
 }
-.purchase-now:before, .services-section-2:before, .testi:before, #numbers:before, .pricing-section-2:before {
+.purchase-now:before, .services-section-2:before, .testi:before, #numbers:before {
   position: absolute;
   top: 0;
   left: 0;
