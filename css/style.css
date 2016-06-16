@@ -111,8 +111,8 @@ a:focus {
   background-color: #272727;
 }
 
-.section--dark h1 {
-  color: #fff;
+.section--dark h1, .section--dark h2, .section--dark h3, .section--dark h4 {
+  color: #fff !important;
 }
 
 /*****************Home*******************/
@@ -1135,10 +1135,13 @@ our work section
   font-size: 20px;
 }
 
-.section__contact-2 {
+.section__footer {
   padding: 40px 0;
-  background-color: #333;
   border-top: 1px solid #222;
+}
+
+.section__footer .container {
+    width: 100%;
 }
 
 .contact-col i {
@@ -1150,7 +1153,7 @@ our work section
 .contact-col p {
   font-weight: 300;
   font-size: 18px;
-  color: #fff;
+  color: #333;
 }
 
 /***footer*/
